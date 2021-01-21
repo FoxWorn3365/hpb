@@ -10,7 +10,7 @@ Il sistema ci chiederà la directory di installazione, consigliamo la cartella `
 
 ## Chiamare il Codice Fox
 Per chiamare il Codice Fox in una pagina php basterà mettere
-```
+```php
 <?php
 // Supponiamo che siamo nella cartella /var/www/ciao e che il Codice Fox sia in /var/www/cfox/
 include("../cfox/loader.php");
@@ -40,7 +40,7 @@ Ne ricordiamo qualcuna:
  
  ## Come chiamare una Variabile
  Per chiamare una variabile sarà necessarip fare semplicemente
- ```
+ ```php
  function scrivi("ciao", "contenuto del file", "+w");
  ```
 
