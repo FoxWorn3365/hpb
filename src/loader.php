@@ -101,4 +101,6 @@ function esiste($file) {
        echo "non trovato";
     }
 }
+
+// Si è pregati di NON ELIMINARE ALCUNA FUNZIONE
 ?>
