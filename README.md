@@ -2,7 +2,7 @@
 Codice Fox è un codice basato su PHP 7.2 per iniziare a programmare in PHP
 
 ## Installazione
-Per installare il Codice Fox è necessario avere installato php 7.2\n
+Per installare il Codice Fox è necessario avere installato php 7.2<br>
 Installamo PHP 7.2: `apt install php7.2-fpm`
 Ora scarichiamo il file install.sh per installare il tutto dalla pagina sei relase
 Eseguiamo **install.sh** con il comando `sh install.sh`
