@@ -40,18 +40,18 @@ function leggi($file) {
 // Funzione IF
 function se($var1, $segno, $var2) {
     if ($var1 $segno $var2) {
-       echo "trovato";
+       return true;
     } else {
-       echo "non trovato";
+       return false;
     }
 } 
 
 // Variabile Vuota
 function vuoto($var) {
     if (empty($var)) {
-       echo "trovato";
+       return true;
     } else
-       echo "non trovato";
+       return false;
     }
 }
 
