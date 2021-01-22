@@ -22,7 +22,7 @@
 // MKDir
 function crea($nome, $permessi) {
    mkdir($nome, $permessi);
-   chmod($nome, $peremssi);
+   chmod($nome, $permessi);
 }
 
 /FWrite
@@ -40,18 +40,18 @@ function leggi($file) {
 // Funzione IF
 function se($var1, $segno, $var2) {
     if ($var1 $segno $var2) {
-       echo "trovato";
+       return true;
     } else {
-       echo "non trovato";
+       return false;
     }
 } 
 
-// Variebile Vuota
+// Variabile Vuota
 function vuoto($var) {
     if (empty($var)) {
-       echo "trovato";
+       return true;
     } else
-       echo "non trovato";
+       return false;
     }
 }
 
@@ -70,6 +70,10 @@ function shell($comando) {
      shell.exec($comando);
 }
 
+//Vero & Falso
+public readonly $vero = true;
+public readonly $falso = false;
+
 // STR Replace
 function sostituisci($carattere1, $carattere2, $testo);
       str_replace($carattere1, $carattere2, $testo;
@@ -83,7 +87,7 @@ function reindirizzamento($url, $tempo) {
        header("refresh:$tempo;url=$url);
     }
 }
- 
+  
 // CS
 function trova($parola, $stringa) {
     if (stripos($stringa, $parola) !== false) {
