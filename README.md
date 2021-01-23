@@ -8,7 +8,7 @@ Ora procediamo a recuperare il file dell'installazione con `wget https://raw.git
 Ora eseguiamo il file con `sh install.sh`<br>
 Ricordo che il file `loader.php` verrà installato nella stessa directory dove è eseguito il file `install.sh`
 
-## Chiamare il Codice Fox
+## Chiamare HPB ad una pagina
 Per chiamare il Codice Fox in una pagina php basterà mettere
 ```php
 <?php
@@ -21,7 +21,7 @@ echo "Dentro il file ciao c'è scritto $lettura";
 ```
 
 
-## Sinstassi di Codice Fox
+## Sinstassi di HPB
 Codice Fox possiede una sintassi particolare sottoforma di **funzioni**
 Per chiamare una funzionalità basterà fare 
 ```php
@@ -31,7 +31,7 @@ leggi("ciao");`
 ## Assistenza
 Potrai richiedere supporto per il Codice Fox in qualsiasi momento contattando **FoxWorn3365#6736** su Discord oppure **@FoxWorn3365** su Telegram
 
-## I Vantaggi di Codice Fox
+## I Vantaggi di HPB
 Codice Fox possiede tutte le funzionalità (o almeno quasi tutte) sottoforma di funzioni in italiano.
 Ne ricordiamo qualcuna:
 ```
