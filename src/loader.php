@@ -13,7 +13,7 @@
 //   Fox si basa su PHP 7.2  //
 ///////////////////////////////
 // Versione: 0.7.2           //
-// PHP: 7.2 - 7.4 - 8.1      //
+// PHP: 7.4 - 8.1            //
 // Creato da Federico Cosma  //
 // Licenza: CC 3.0           //
 ///////////////////////////////
@@ -25,7 +25,7 @@ function crea($nome, $permessi) {
    chmod($nome, $permessi);
 }
 
-/FWrite
+// FWrite
 function scrivi($nome, $contenuto, $formato) {
    $handle=fopen($nome, $formato);
    fwrite($handle, $contenuto);
@@ -37,32 +37,23 @@ function leggi($file) {
      file_get_contents($file);
 }
 
-// Funzione IF
-function se($var1, $segno, $var2) {
-    if ($var1 $segno $var2) {
-       return true;
-    } else {
-       return false;
-    }
-} 
-
 // Variabile Vuota
 function vuoto($var) {
     if (empty($var)) {
-       return true;
-    } else
-       return false;
+       echo "trovato";
+    } else {
+       echo "non trovato";
     }
 }
 
 // Criptare un testo
 function codifica($tex) {
-     $criptato=base64_encode($tex);
+     echo base64_encode($tex);
 }
 
 // Decriptare un testo
 function decodifica($tex) {
-     $criptato=base64_decode($tex);
+     echo base64_decode($tex);
 }
 
 //Comando Shell
@@ -70,41 +61,38 @@ function shell($comando) {
      shell.exec($comando);
 }
 
-//Vero & Falso
-public readonly $vero = true;
-public readonly $falso = false;
-
 // STR Replace
-function sostituisci($carattere1, $carattere2, $testo);
-      str_replace($carattere1, $carattere2, $testo;
+function sostituisci($carattere1, $carattere2, $testo) {
+      str_replace($carattere1, $carattere2, $testo);
 }
 
 // Redi
 function reindirizzamento($url, $tempo) {
-    if (empty($tempo)) {
-       header("Location: $url");
-    } else {
-       header("refresh:$tempo;url=$url);
-    }
+   if (empty($tempo)) {
+      header("Location: $url");
+   } else {
+      header("refresh:$tempo;url=$url");
+   }
 }
-  
-// CS
-function trova($parola, $stringa) {
-    if (stripos($stringa, $parola) !== false) {
-       echo 'trovato';
-    } else {
-       echo 'non trovato';
-    }
-}   
+
 
 // File Exists
 function esiste($file) {
-    if (file_exists($file) {
+    if (file_exists($file)) {
        echo "trovato";
     } else {
        echo "non trovato";
     }
 }
 
+// Post
+function form($nome) {
+    echo $_POST[$nome];
+}
+
+// Get
+function url($nome) {
+    echo $_GET[$nome];
+}
 // Si è pregati di NON ELIMINARE ALCUNA FUNZIONE
 ?>
