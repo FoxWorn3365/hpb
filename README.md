@@ -1,12 +1,12 @@
-# Codice Fox
-Codice Fox è un codice basato su PHP 7.2 per iniziare a programmare in PHP
+# HPB
+Con **HPB** si potrà imparare il codice lato server in pochissimo tempo!
+**HPB** è un codice in *Italiano* per siti web a lato server basato su PHP 7.4
 
 ## Installazione
-Per installare il Codice Fox è necessario avere installato PHP 7.2<br>
-Installamo PHP 7.2: `apt install php7.2-fpm`<br>
-Ora scarichiamo il file install.sh per installare il tutto dalla pagina dei relase<br>
-Eseguiamo **install.sh** con il comando `sh install.sh`<br>
-Il sistema ci chiederà la directory di installazione, consigliamo la cartella `/var/www`
+Per installare **HPB** basterà installare PHP 7.4 seguento [questo tutorial](https://www.cloudbooklet.com/install-php-7-4-on-debian-10/)<br>
+Ora procediamo a recuperare il file dell'installazione con `wget https://raw.githubusercontent.com/FoxWorn3365/codice-fox/main/src/install.sh`<br>
+Ora eseguiamo il file con `sh install.sh`<br>
+Ricordo che il file `loader.php` verrà installato nella stessa directory dove è eseguito il file `install.sh`
 
 ## Chiamare il Codice Fox
 Per chiamare il Codice Fox in una pagina php basterà mettere
@@ -23,7 +23,10 @@ echo "Dentro il file ciao c'è scritto $lettura";
 
 ## Sinstassi di Codice Fox
 Codice Fox possiede una sintassi particolare sottoforma di **funzioni**
-Per chiamare una funzionalità basterà fare `function leggi("ciao");`
+Per chiamare una funzionalità basterà fare 
+```php
+leggi("ciao");`
+```
 
 ## Assistenza
 Potrai richiedere supporto per il Codice Fox in qualsiasi momento contattando **FoxWorn3365#6736** su Discord oppure **@FoxWorn3365** su Telegram
@@ -37,12 +40,6 @@ Ne ricordiamo qualcuna:
 - vuoto
 - crea
 ```
- 
- ## Come chiamare una Variabile
- Per chiamare una variabile sarà necessarip fare semplicemente
- ```php
- function scrivi("ciao", "contenuto del file", "+w");
- ```
 
 ## Consulta la nostra Wiki
 Consulta ora la nostra wiki che trovi nel menu del reposity di Codice Fox
