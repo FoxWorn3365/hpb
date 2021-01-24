@@ -34,44 +34,44 @@ function scrivi($nome, $contenuto, $formato) {
 
 // Lettore File
 function leggi($file) {
-     file_get_contents($file);
+    $output=file_get_contents($file);
 }
 
 // Variabile Vuota
 function vuoto($var) {
     if (empty($var)) {
-       echo "trovato";
+        $output="trovato";
     } else {
-       echo "non trovato";
+        $output="non trovato";
     }
 }
 
 // Criptare un testo
 function codifica($tex) {
-     echo base64_encode($tex);
+    $output=base64_encode($tex);
 }
 
 // Decriptare un testo
 function decodifica($tex) {
-     echo base64_decode($tex);
+    $output=base64_decode($tex);
 }
 
 //Comando Shell
 function shell($comando) {
-     shell.exec($comando);
+    shell.exec($comando);
 }
 
 // STR Replace
 function sostituisci($carattere1, $carattere2, $testo) {
-      str_replace($carattere1, $carattere2, $testo);
+    $output=str_replace($carattere1, $carattere2, $testo);
 }
 
 // Redi
 function reindirizzamento($url, $tempo) {
    if (empty($tempo)) {
-      header("Location: $url");
+        header("Location: $url");
    } else {
-      header("refresh:$tempo;url=$url");
+        header("refresh:$tempo;url=$url");
    }
 }
 
@@ -79,19 +79,29 @@ function reindirizzamento($url, $tempo) {
 // File Exists
 function esiste($file) {
     if (file_exists($file)) {
-       echo "trovato";
+        $output="trovato";
     } else {
-       echo "non trovato";
+        $output="non trovato";
     }
 }
 
 // Post
 function form($nome) {
-    echo $_POST[$nome];
+    $output=$_POST[$nome];
 }
 
 // Get
 function url($nome) {
-    echo $_GET[$nome];
+    $output=$_GET[$nome];
+}
+
+// ClearResult
+function pulisci() {
+	$output="";
+}
+
+// Scrivi
+function stampa($testo) {
+	echo $testo;
 }
 ?>
