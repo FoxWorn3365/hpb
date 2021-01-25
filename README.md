@@ -9,7 +9,7 @@ Ora eseguiamo il file con `sh install.sh`<br>
 Ricordo che il file `loader.php` verrà installato nella stessa directory dove è eseguito il file `install.sh`
 
 ## Chiamare HPB ad una pagina
-Per chiamare il Codice Fox in una pagina php basterà mettere
+Per chiamare **HPB** in una pagina php basterà mettere
 ```php
 <?php
 // Supponiamo che siamo nella cartella /var/www/ciao e che il Codice Fox sia in /var/www/cfox/
@@ -22,17 +22,17 @@ echo "Dentro il file ciao c'è scritto $lettura";
 
 
 ## Sinstassi di HPB
-Codice Fox possiede una sintassi particolare sottoforma di **funzioni**
+**HPB** possiede una sintassi particolare sottoforma di **funzioni**
 Per chiamare una funzionalità basterà fare 
 ```php
 leggi("ciao");`
 ```
 
 ## Assistenza
-Potrai richiedere supporto per il Codice Fox in qualsiasi momento contattando **FoxWorn3365#6736** su Discord oppure **@FoxWorn3365** su Telegram
+Potrai richiedere supporto per il **HPB** in qualsiasi momento contattando **FoxWorn3365#6736** su Discord oppure **@FoxWorn3365** su Telegram
 
 ## I Vantaggi di HPB
-Codice Fox possiede tutte le funzionalità (o almeno quasi tutte) sottoforma di funzioni in italiano.
+**HPB** possiede tutte le funzionalità (o almeno quasi tutte) sottoforma di funzioni in italiano.
 Ne ricordiamo qualcuna:
 ```
 - leggi
@@ -42,4 +42,4 @@ Ne ricordiamo qualcuna:
 ```
 
 ## Consulta la nostra Wiki
-Consulta ora la nostra wiki che trovi nel menu del reposity di Codice Fox
+Consulta ora la nostra wiki che trovi nel menu del reposity di **HPB**
