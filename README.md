@@ -3,10 +3,8 @@ Con **HPB** si potrà imparare il codice lato server in pochissimo tempo!
 **HPB** è un codice in *Italiano* per siti web a lato server basato su PHP 7.4
 
 ## Installazione
-Per installare **HPB** basterà installare PHP 7.4 seguento [questo tutorial](https://www.cloudbooklet.com/install-php-7-4-on-debian-10/)<br>
-Ora procediamo a recuperare il file dell'installazione con `wget https://raw.githubusercontent.com/FoxWorn3365/codice-fox/main/src/install.sh`<br>
-Ora eseguiamo il file con `sh install.sh`<br>
-Ricordo che il file `loader.php` verrà installato nella stessa directory dove è eseguito il file `install.sh`
+Per installare **HPB** andare alla pagina:
+
 
 ## Chiamare HPB ad una pagina
 Per chiamare **HPB** in una pagina php basterà mettere
