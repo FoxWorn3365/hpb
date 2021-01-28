@@ -85,17 +85,23 @@ function esiste($file) {
     }
 }
 
-// Post
-function form($nome) {
-    $output=$_POST[$nome];
+// Equals
+function uguale($var1, $var2) {
+	if ($var1 == $var2) {
+	     $output="trovato";
+	} else {
+             $output="non trovato";
+	}
 }
 
-// Get
-function url($nome) {
-    $output=$_GET[$nome];
+function diverso($var1, $var2) {
+	if ($var1 != $var2) {
+		$output="trovato";
+	} else {
+		$output="non trovato";
+	}
 }
 
-// ClearResult
 function pulisci() {
 	$output="";
 }
