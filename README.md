@@ -27,7 +27,7 @@ leggi("ciao");`
 ```
 
 ## Assistenza
-Potrai richiedere supporto per il **HPB** in qualsiasi momento contattando **FoxWorn3365#2021** su Discord oppure **@FoxWorn3365** su Telegram
+Potrai richiedere supporto per il **HPB** in qualsiasi momento contattando **FoxWorn#2021** su Discord oppure **@FoxWorn3365** su Telegram
 
 ## I Vantaggi di HPB
 **HPB** possiede tutte le funzionalità (o almeno quasi tutte) sottoforma di funzioni in italiano.
