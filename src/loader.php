@@ -154,4 +154,8 @@ function sessione_distruggi() {
 	session_destroy();
 }
 
+// Stop
+function stop() {
+	die("Errore");
+}
 ?>
