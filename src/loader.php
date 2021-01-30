@@ -132,4 +132,17 @@ function data() {
 	$output=date("d/m/Y");
 }
 
+// >> Sessioni <<
+
+// Definire una sessione
+function sessione_definisci($nome, $value) {
+	$_SESSION[$nome]=$value;
+}
+
+// Recuperare una sessione
+function sessione_recupera($nome) {
+	$output=$_SESSION["nome"];
+}
+
+>
 ?>
