@@ -156,7 +156,7 @@ function sessione_distruggi() {
 
 // IP Found
 function ip() {
-	$output=$_SERVER["REMOTE_ADDR"]:
+	$output=$_SERVER["REMOTE_ADDR"];
 }
 
 // Stop
