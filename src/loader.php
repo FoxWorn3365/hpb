@@ -134,6 +134,11 @@ function data() {
 
 // >> Sessioni <<
 
+// Startare le sessioni
+function sessione() {
+	session_start();
+}
+
 // Definire una sessione
 function sessione_definisci($nome, $value) {
 	$_SESSION[$nome]=$value;
@@ -144,5 +149,9 @@ function sessione_recupera($nome) {
 	$output=$_SESSION["nome"];
 }
 
->
+// Distruggi una sessione
+function sessione_distruggi() {
+	session_destroy();
+}
+
 ?>
