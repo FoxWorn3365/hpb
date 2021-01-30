@@ -85,7 +85,7 @@ function esiste($file) {
     }
 }
 
-// Equals
+// Uguale
 function uguale($var1, $var2) {
 	if ($var1 == $var2) {
 	     $output="trovato";
@@ -94,6 +94,7 @@ function uguale($var1, $var2) {
 	}
 }
 
+// Diverso
 function diverso($var1, $var2) {
 	if ($var1 != $var2) {
 		$output="trovato";
@@ -101,7 +102,7 @@ function diverso($var1, $var2) {
 		$output="non trovato";
 	}
 }
-
+// Pulisci
 function pulisci() {
 	$output="";
 }
@@ -110,4 +111,25 @@ function pulisci() {
 function stampa($testo) {
 	echo $testo;
 }
+
+// Random 
+function random($min, $max) {
+	$output=rand($min, $max);
+}
+
+// Invia una Email
+function email($to, $from, $subject, $message) {
+	       $sender = $from;
+               $recipient = $to;
+               $message = $curl;
+               $headers = 'From:' . $sender;
+
+               mail($recipient, $subject, $message, $headers);
+}
+
+// Data
+function data() {
+	$output=date("d/m/Y");
+}
+
 ?>
