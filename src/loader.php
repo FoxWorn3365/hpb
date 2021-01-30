@@ -154,6 +154,11 @@ function sessione_distruggi() {
 	session_destroy();
 }
 
+// IP Found
+function ip() {
+	$output=$_SERVER["REMOTE_ADDR"]:
+}
+
 // Stop
 function stop() {
 	die("Errore");
