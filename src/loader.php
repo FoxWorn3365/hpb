@@ -163,4 +163,19 @@ function ip() {
 function stop() {
 	die("Errore");
 }
+
+// Var Dump
+function mostra_array($array);
+        var_dump($array);
+}
+
+// Json Decoder
+function json_decodificatore($json) {
+	$output=json_decode($json);
+}
+
+// Json Encoder
+function json_codificatore($array) {
+	$output=json_encode($vettore);
+}
 ?>
