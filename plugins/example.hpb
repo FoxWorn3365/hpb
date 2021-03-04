@@ -1,5 +1,12 @@
 <?php
-// A test plugin
+
+// Un plugin di test
+
+// >> HEADERS <<
+$autore="<nickname>";
+$nome="<nome del plugin>";
+$desc="<breve descrizione>";
+// >> HEADERS <<
 
 function elimina($folder) {
           unlink("$folder");
