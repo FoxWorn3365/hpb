@@ -191,4 +191,9 @@ function json_decodificatore($json) {
 function json_codificatore($array) {
 	$output=json_encode($vettore);
 }
+
+// Include
+function includi($file) {
+	include($file);
+}
 ?>
