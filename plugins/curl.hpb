@@ -1,6 +1,6 @@
 <?php
 
-function curl($url) {
+function link($url) {
     // inizializzo cURL
     $ch = curl_init();
 
