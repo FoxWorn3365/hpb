@@ -1,5 +1,11 @@
 <?php
 
+// >> HEADERS <<
+$autore="FoxWorn3365";
+$nome="CURL plugin for hpb";
+$desc="Un plugin che aggiunge la funzione CURL per hpb";
+// >> HEADERS <<
+
 function link($url) {
     // inizializzo cURL
     $ch = curl_init();
