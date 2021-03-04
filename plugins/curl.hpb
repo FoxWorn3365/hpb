@@ -1,0 +1,20 @@
+<?php
+
+function curl($url) {
+    // inizializzo cURL
+    $ch = curl_init();
+
+    // imposto la URL della risorsa remota da scaricare
+    curl_setopt($ch, CURLOPT_URL, 'http://www.sito.com/pagina.html');
+
+    // imposto che non vengano scaricati gli header
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+
+    // eseguo la chiamata
+    $output = curl_exec($ch);
+
+    // chiudo cURL
+    curl_close($ch);
+}
+
+?>
