@@ -1,5 +1,7 @@
 <?php
 
+// PLUGIN CURL UFFICIALE
+
 // >> HEADERS <<
 $autore="FoxWorn3365";
 $nome="CURL plugin for hpb";
