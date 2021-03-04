@@ -19,6 +19,17 @@
 // Versione: 0.7.1               //
 ///////////////////////////////////
 
+// Plugin Loader
+function plugin($type, $name) {
+	if ($type == "load") {
+		copy("plugins/$name.hpb", "plugins/.temp_$name.php");
+		include("plugins/.temp_$name.php");
+	} else {
+		unlink("plugins/.temp_$name.php");
+		die();
+	}
+}
+
 // MKDir
 function crea($nome, $permessi) {
    mkdir($nome, $permessi);
