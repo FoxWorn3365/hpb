@@ -21,8 +21,10 @@
 
 // Plugin Loader
 function plugin($type, $name) {
-	if ($type == "load") {
+	if ($type == "carica") {
 		copy("plugins/$name.hpb", "plugins/.temp_$name.php");
+		include("plugins/.temp_$name.php");
+	} elseif ($type == "attiva") {
 		include("plugins/.temp_$name.php");
 	} else {
 		unlink("plugins/.temp_$name.php");
