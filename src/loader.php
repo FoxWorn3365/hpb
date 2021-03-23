@@ -48,6 +48,7 @@ function scrivi($nome, $contenuto, $formato) {
 // Lettore File
 function leggi($file) {
     $output=file_get_contents($file);
+	return $output;
 }
 
 // Variabile Vuota
@@ -57,16 +58,19 @@ function vuoto($var) {
     } else {
         $output="non trovato";
     }
+	return $output;
 }
 
 // Criptare un testo
 function codifica($tex) {
     $output=base64_encode($tex);
+	return $output;
 }
 
 // Decriptare un testo
 function decodifica($tex) {
     $output=base64_decode($tex);
+	return $output;
 }
 
 //Comando Shell
@@ -77,6 +81,7 @@ function shell($comando) {
 // STR Replace
 function sostituisci($carattere1, $carattere2, $testo) {
     $output=str_replace($carattere1, $carattere2, $testo);
+    return $output;
 }
 
 // Redi
@@ -96,6 +101,7 @@ function esiste($file) {
     } else {
         $output="non trovato";
     }
+    return $output;
 }
 
 // Uguale
@@ -105,6 +111,7 @@ function uguale($var1, $var2) {
 	} else {
              $output="non trovato";
 	}
+	return $output;
 }
 
 // Diverso
@@ -114,10 +121,7 @@ function diverso($var1, $var2) {
 	} else {
 		$output="non trovato";
 	}
-}
-// Pulisci
-function pulisci() {
-	$output="";
+	return $output;
 }
 
 // Scrivi
@@ -128,6 +132,7 @@ function stampa($testo) {
 // Random 
 function random($min, $max) {
 	$output=rand($min, $max);
+	return $output;
 }
 
 // Invia una Email
@@ -143,6 +148,7 @@ function email($to, $from, $subject, $message) {
 // Data
 function data() {
 	$output=date("d/m/Y");
+	return $output;
 }
 
 // >> Sessioni <<
@@ -160,6 +166,7 @@ function sessione_definisci($nome, $value) {
 // Recuperare una sessione
 function sessione_recupera($nome) {
 	$output=$_SESSION["nome"];
+	return $output;
 }
 
 // Distruggi una sessione
@@ -170,6 +177,7 @@ function sessione_distruggi() {
 // IP Found
 function ip() {
 	$output=$_SERVER["REMOTE_ADDR"];
+	return $output;
 }
 
 // Stop
@@ -185,15 +193,29 @@ function mostra_array($array);
 // Json Decoder
 function json_decodificatore($json) {
 	$output=json_decode($json);
+	return $output;
 }
 
 // Json Encoder
 function json_codificatore($array) {
 	$output=json_encode($vettore);
+	return $output;
 }
 
 // Include
 function includi($file) {
 	include($file);
+}
+
+// URL
+function url($name) {
+	$output=$_GET["$name"];
+	return $output;
+}
+
+// Form
+function risultato($name) {
+	$output=$_POST["$name"];
+	return $output;
 }
 ?>
