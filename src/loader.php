@@ -186,7 +186,7 @@ function stop() {
 }
 
 // Var Dump
-function mostra_array($array);
+function mostra_array($array) {
         var_dump($array);
 }
 
