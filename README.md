@@ -1,7 +1,12 @@
 # HPB
 
-#⚠️ ATTENZIONE ⚠
-##Questo reposity NON è aggiornato ed è da considerare decrepito. A breve ne verrà creato uno nuovo con anche una nuova Wiki
+# ⚠️ ATTENZIONE ⚠
+## Questo repository NON è aggiornato ed è da considerare decrepito. A breve ne verrà creato uno nuovo con anche una nuova Wiki
+
+## Nuovo Reository
+https://github.com/HPB-Dev/hpb
+
+***
 
 Con **HPB** si potrà imparare il codice lato server in pochissimo tempo!
 **HPB** è un codice in *Italiano* per siti web a lato server basato su PHP 7.4
